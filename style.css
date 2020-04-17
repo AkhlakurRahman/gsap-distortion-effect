@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins';
+  background-color: #d9dbe2;
+  width: 100%;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Navbar
+=========================== */
+.navbar {
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar > div {
+  font-size: 1.6rem;
+  padding: 0 3rem;
+}
+
+.navbar .menu {
+  margin-right: auto;
+}
+
+ion-icon {
+  font-size: 2rem;
+}
+
+.navbar .lang {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Social Media
+=========================== */
+.media ul {
+  position: absolute;
+  bottom: 25rem;
+  left: -14rem;
+  transform: rotate(-90deg);
+}
+
+.media ul li {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 0 3rem;
+}
+
+/* Text
+=========================== */
+.text {
+  position: absolute;
+  top: 18rem;
+  left: 10rem;
+  transform: rotate(-90deg);
+}
+
+.text h1 {
+  font-size: 10rem;
+  font-weight: 900;
+  letter-spacing: -1rem;
+  text-transform: uppercase;
+}
+
+.text h1:after {
+  content: 'duality';
+  position: absolute;
+  top: 4rem;
+  left: -2rem;
+  z-index: -1;
+  font-size: 12rem;
+  color: #d7beee;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.text h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.text p {
+  width: 20rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 3rem;
+}
+
+/* Sponsor Image 
+=========================== */
+.sponsor {
+  position: absolute;
+  right: 10rem;
+  bottom: 5rem;
+  text-align: center;
+}
+
+.sponsor img {
+  width: 20rem;
+  transform: rotate(-90deg);
+}
+
+.sponsor p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  transform: rotate(180deg);
+}
